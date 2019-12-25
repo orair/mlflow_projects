@@ -1,0 +1,8 @@
+Para criar o environment execute:
+conda env create --file mlflow_environment.yml
+
+Para atualizar um environment já existente:
+conda env update --file environment.yml --prune
+
+Para regerar o environment.yml, com ele ativado use:
+conda env export --file environment.yml
